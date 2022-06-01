@@ -1,0 +1,102 @@
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.navbar {
+    border-bottom: 2px solid #fff;
+}
+a{
+    text-align: center;
+}
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 150%;
+    padding: 0;
+    margin: 0;
+    background: #6c757d!important;
+}
+
+.navbar,
+.nav-link,
+.navbar-brand {
+    background: rgb(151,145,159);
+    color: #fff;
+    cursor: pointer;
+    font-family: Trebuchet MS, serif;
+    font-size: large;
+    z-index: 1;
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.nav-link {
+    z-index: 1;
+    margin-right: 1em !important;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-toggler:hover{
+    color: #000000;
+    border-bottom: 2px solid black;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    color: #000000;
+}
+
+.img-fluid{
+    border-radius: 30%;
+}
+
+
+.description h3{
+    font-size: 1.5vw;
+    color: #fff;
+    font-family: Trebuchet MS, serif;
+    line-height: 200%;
+}
+.features h2{
+    font-size: 2.5vw;
+    color: #fff;
+    font-family: Trebuchet MS, serif;
+}
+.features h1{
+    font-size: 4vw;
+    color: #fff;
+    font-family: Trebuchet MS, serif;
+}
+
+.description {
+    animation: fadeEffect 3s; /* fading effect takes 3s */
+    display: none;
+
+}
+
+@keyframes fadeEffect { /* from 0 to full opacity */
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.info {
+    text-decoration:none;
+    border-bottom: 2px solid rgb(151,145,159);
+    box-shadow: inset 0 -4px 0 rgb(151,145,159);
+    color: inherit;
+    transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+}
+
+.info:hover {
+    background: rgb(151,145,159);
+    color: white;
+}
